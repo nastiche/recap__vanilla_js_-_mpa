@@ -8,7 +8,7 @@ body {
   background: rgb(252, 252, 252);
 }
 
-.top-margin-div {
+main {
   margin-top: 110px;
 }
 
@@ -65,7 +65,9 @@ h2 {
   border-color: grey;
   background: grey;
   color: white;
-  margin-right: 5px;
+  margin-right: 7px;
+  border-radius: 5px;
+  padding: 2px 7px;
 }
 
 nav {
@@ -82,6 +84,24 @@ nav {
   color: white;
 }
 
-.bottom-margin-div {
+footer {
   margin-bottom: 100px;
+}
+
+/* BOOKMARKS */
+
+.picture-name-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+}
+.user-name {
+  display: block;
+  width: 60%;
+  margin: 0;
+}
+
+.profile-picture {
+  display: block;
 }
