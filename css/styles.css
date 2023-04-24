@@ -8,7 +8,13 @@ body {
 }
 
 nav {
-  padding: 14px 20px;
   background-color: fuchsia;
   font-size: 1.4rem;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  color: white;
 }
