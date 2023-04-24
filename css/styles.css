@@ -5,11 +5,16 @@
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(252, 252, 252);
 }
 
 nav {
-  background-color: fuchsia;
+  background-color: mediumaquamarine;
   font-size: 1.4rem;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
 }
 
 h1 {
@@ -20,9 +25,9 @@ h1 {
 }
 
 article {
-  margin: 30px;
+  margin: 90px 30px 30px 30px;
   border: solid 2px;
-  border-color: fuchsia;
+  border-color: mediumaquamarine;
   position: relative;
   text-align: center;
 }
@@ -31,11 +36,47 @@ h2 {
   width: 100%;
   display: inline-block;
   margin-top: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .bookmark {
   position: absolute;
   right: 5px;
   top: -20px;
+}
+
+.answer-button {
+  padding: 10px 15px;
+}
+
+.tags-container {
+  margin: 30px 5px 5px 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.tag {
+  border: solid 2px;
+  border-color: grey;
+  background: grey;
+  color: white;
+  margin-right: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: mediumaquamarine;
+}
+
+.footer-items {
+  margin: 5px;
+  color: white;
+}
+
+.bottom-margin-div {
+  margin-bottom: 100px;
 }
