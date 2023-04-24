@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  background-color: fuchsia;
+  font-size: 1.4rem;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
