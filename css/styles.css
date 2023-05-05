@@ -1,4 +1,4 @@
 @import "/css/global.css";
-@import "/css/question-cards.css";
-@import "/css/nav-bar.css";
-@import "/css/profile-page.css";
+@import "/css/components/question-cards.css";
+@import "/css/components/nav-bar.css";
+@import "/css/pages/profile-page.css";

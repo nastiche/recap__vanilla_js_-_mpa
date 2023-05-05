@@ -18,13 +18,17 @@
   margin: 40px;
 }
 
-.main__page-statistics {
+.main__bookmark-counters {
   display: flex;
   justify-content: space-around;
 }
 
-.page-statistics_counter {
+.bookmark-counters__counter {
   border: solid 1px;
   width: 80px;
   border-radius: 3px;
+}
+
+.counter__icon {
+  width: 30px;
 }
