@@ -1,0 +1,73 @@
+.profile {
+  padding: 6rem 1rem 1rem 1rem;
+}
+
+.profile > * {
+  margin: 0 0 1rem;
+}
+
+.profile__card {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+
+.counter__icon {
+  height: 30px;
+}
+
+
+.profile__settings {
+  width: 100%;
+  margin: auto;
+}
+
+.profile__settings-darkmode-input {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.profile__settings-darkmode-label {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: var(--fs-500);
+  height: 40px;
+}
+
+.profile__settings-darkmode-label:before {
+  width: 80px;
+  height: 40px;
+  background: var(--secondary-color);
+  display: block;
+  border-radius: 100px;
+  position: absolute;
+  content: "";
+  right: 0;
+}
+
+.profile__settings-darkmode-label:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: 40px;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 90px;
+  transition: right 0.3s;
+}
+
+.profile__settings-darkmode-input:checked
+  + .profile__settings-darkmode-label:before {
+  background: var(--secondary-color);
+}
+
+.profile__settings-darkmode-input:checked
+  + .profile__settings-darkmode-label:after {
+  right: 5px;
+}

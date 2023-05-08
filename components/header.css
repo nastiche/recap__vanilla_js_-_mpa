@@ -1,0 +1,14 @@
+.header {
+  background: var(--primary-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.header__app-title {
+  text-align: center;
+  color: var(--white);
+}

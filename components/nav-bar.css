@@ -1,0 +1,38 @@
+.nav-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: var(--primary-color);
+}
+
+.nav-bar__list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-bar__list-item {
+  padding: 1rem 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar__list-item--active {
+  background-color: var(--secondary-color);
+}
+
+.nav-bar__list-item:not(:first-child) {
+  border-left: 3px solid var(--white);
+}
+
+/* .nav-bar__link {
+  background: transparent;
+  border: none;
+  padding: 0;
+} */
+
+.nav-bar__link svg {
+  height: 40px;
+  fill: currentColor;
+}
