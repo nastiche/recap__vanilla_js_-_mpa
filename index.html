@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
+    <script src="./index.js" defer></script>
     <title>Quiz</title>
   </head>
   <body>
@@ -12,17 +13,21 @@
       <h1 class="header__app-title">Quiz App</h1>
     </header>
     <main>
-      <ul class="question-card-list">
+      <ul class="question-card-list" data-js="question-card-list">
         <!-- first card -->
         <li class="question-card-list__item">
           <article class="question-card">
             <h2 class="question-card__question">
               What is the tallest mammal on Earth?
             </h2>
-            <button class="question-card__button-answer" type="button">
+            <button
+              class="question-card__button-answer"
+              type="button"
+              data-js="button-answer"
+            >
               Show Answer
             </button>
-            <p class="question-card__answer question-card__answer--active">
+            <p class="question-card__answer" data-js="question-card__answer">
               Giraffe
             </p>
             <ul class="question-card__tag-list">
@@ -50,10 +55,14 @@
             <h2 class="question-card__question">
               Which planet is known as the "Red Planet"?
             </h2>
-            <button class="question-card__button-answer" type="button">
+            <button
+              class="question-card__button-answer"
+              type="button"
+              data-js="button-answer"
+            >
               Show Answer
             </button>
-            <p class="question-card__answer question-card__answer--active">
+            <p class="question-card__answer" data-js="question-card__answer">
               Mars
             </p>
             <ul class="question-card__tag-list">
@@ -79,10 +88,14 @@
         <li class="question-card-list__item">
           <article class="question-card">
             <h2 class="question-card__question">Who painted the Mona Lisa?</h2>
-            <button class="question-card__button-answer" type="button">
+            <button
+              class="question-card__button-answer"
+              type="button"
+              data-js="button-answer"
+            >
               Show Answer
             </button>
-            <p class="question-card__answer question-card__answer--active">
+            <p class="question-card__answer" data-js="question-card__answer">
               Leonardo da Vinci
             </p>
             <ul class="question-card__tag-list">
