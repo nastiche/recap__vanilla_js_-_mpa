@@ -1,0 +1,21 @@
+.bookmark {
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+.bookmark:hover {
+  cursor: pointer;
+}
+
+.bookmark--active {
+  color: var(--secondary-color);
+}
+
+.bookmark__icon {
+  fill: currentColor;
+  width: 2rem;
+}

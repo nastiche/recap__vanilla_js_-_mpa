@@ -1,0 +1,16 @@
+.counter-list {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.counter-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  width: 90px;
+  padding: 0.5rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+}
