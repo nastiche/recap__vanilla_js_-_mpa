@@ -3,7 +3,7 @@
 }
 
 .profile > * {
-  margin: 0 0 1rem;
+  margin: 0 0 1.2rem;
 }
 
 .profile__card {
@@ -21,6 +21,10 @@
 .profile__settings {
   width: 100%;
   margin: auto;
+}
+
+#settings {
+  margin:0;
 }
 
 .profile__settings-darkmode-input {
