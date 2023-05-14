@@ -1,9 +1,9 @@
 @import "global.css";
 @import "/components/header.css";
-@import "/components/question-card.css";
+@import "/components/Question_card/Question-card.css";
 @import "/components/nav-bar.css";
-@import "/components/profile-page.css";
+@import "/components/Profile_page/Profile_page.css";
 @import "/components/question-card-list.css";
 @import "/components/bookmark.css";
 @import "/components/counter-list.css";
-@import "/components/card-form.css";
+@import "/components/Card_form/Card_form.css";
