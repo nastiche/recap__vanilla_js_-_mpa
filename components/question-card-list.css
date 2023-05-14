@@ -7,3 +7,9 @@
 .question-card-list__item {
   margin: 0 0 4rem;
 }
+
+.new-question-card-list {
+  padding: 0rem 2rem 4rem 2rem;
+  max-width: 45rem;
+  margin: 0 auto;
+}

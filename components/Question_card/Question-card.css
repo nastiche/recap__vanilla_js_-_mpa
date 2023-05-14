@@ -32,11 +32,11 @@
   color: var(--white);
 }
 
-.queation-card__answer--active {
+.question-card__answer--active {
   color: var(--black);
 }
 
-/* done */
+
 .question-card__button-bookmark {
   position: absolute;
   right: 1rem;

@@ -1,6 +1,7 @@
 :root {
   --primary-color: #66cdaa;
   --secondary-color: #aa4166;
+  --grey: lightgrey;
   --white: white;
   --black: black;
   --ff-primary: sans-serif;
@@ -56,9 +57,3 @@ ol li {
   list-style: none;
   padding: 0;
 }
-
-/* img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-} */
