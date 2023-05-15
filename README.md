@@ -1,2 +1,2 @@
 # quiz-app
-first recap project
+recap project - vanilla js & MPA
