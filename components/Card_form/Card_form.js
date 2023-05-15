@@ -10,8 +10,29 @@ const answerAmountLeft = document.querySelector(
 );
 const maxlengthQuestion = yourQuestionField.getAttribute("maxlength");
 const maxlengthAnswer = yourAnswerField.getAttribute("maxlength");
+const progressBar = document.querySelector('[data-js="progress-bar"]');
 
-// 
+function progressBarChange() {
+  function calculateScrollPercentage() {
+    let windowYPosition = window.scrollY;
+    console.log(windowYPosition);
+    let windowHeight = window.innerHeight;
+    console.log(windowHeight);
+    let webpageHeight = document.body.clientHeight;
+    console.log(webpageHeight);
+    let progressBarWidth =
+      (windowYPosition / (webpageHeight - windowHeight)) * 100;
+    return progressBarWidth + "%";
+  }
+
+  document.addEventListener("scroll", (event) => {
+    progressBar.classList.add("header__progress-bar--active");
+    progressBar.style.width = calculateScrollPercentage();
+  });
+}
+progressBarChange();
+
+//
 const updateAmountLeft = (field, amountLeftElement, maxLength) => {
   const updateAmount = () => {
     const length = maxLength - field.value.length;

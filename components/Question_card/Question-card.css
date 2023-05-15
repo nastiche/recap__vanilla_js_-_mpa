@@ -14,10 +14,15 @@
   color: var(--white);
   background: var(--primary-color);
   border-radius: 5px;
+  width: 9rem;
   border: none;
   margin: 0 auto 2rem auto;
   padding: 1rem;
   display: block;
+}
+
+.question-card__button-answer--active {
+  background: var(--secondary-color);
 }
 
 .question-card__button-answer:hover {
@@ -35,7 +40,6 @@
 .question-card__answer--active {
   color: var(--black);
 }
-
 
 .question-card__button-bookmark {
   position: absolute;

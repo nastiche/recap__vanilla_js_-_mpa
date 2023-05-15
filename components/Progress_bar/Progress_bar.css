@@ -1,0 +1,12 @@
+.header__progress-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 10px;
+  width: 0%;
+  background-color: var(--secondary-color);
+  transition: width 0.05s ease;
+}
+.header__progress-bar--active {
+    background-color: var(--secondary-color);
+}

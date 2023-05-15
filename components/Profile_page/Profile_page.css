@@ -13,6 +13,10 @@
   align-items: center;
 }
 
+.profile__card-img {
+  border-radius: 50%;
+}
+
 .counter__icon {
   height: 30px;
 }
@@ -23,13 +27,16 @@
 }
 
 #settings {
-  margin: 0;
+  margin: 0 0 1rem 0;
 }
 
 .profile__settings-darkmode-input {
   height: 0;
   width: 0;
   visibility: hidden;
+  margin: 0;
+  position: absolute;
+  left: -9999px;
 }
 
 .profile__settings-darkmode-label {
@@ -67,7 +74,7 @@
 
 .profile__settings-darkmode-input:checked
   + .profile__settings-darkmode-label:before {
-  background: var(--primary-color);
+  background: var(--secondary-color);
 }
 
 .profile__settings-darkmode-input:checked
@@ -78,5 +85,4 @@
 .dark-mode {
   background: black;
   color: var(--white);
-  
 }
