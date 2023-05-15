@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
-    <script type="module" src="./index.js"></script>    
+    <script type="module" src="./index.js"></script>
     <title>Quiz</title>
   </head>
   <body>
     <header class="header">
       <h1 class="header__app-title">Quiz App</h1>
+      <div class="header__progress-bar" data-js="progress-bar"></div>
     </header>
     <main>
       <ul class="question-card-list" data-js="question-card-list">
         <!-- first card -->
-        <li class="question-card-list__item">
+        <li class="question-card-list__item" data-js="question-card-list__item">
           <article class="question-card">
             <h2 class="question-card__question">
               What is the tallest mammal on Earth?
